@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bebas+Neue&family=Cutive+Mono&family=Fugaz+One&family=Lobster&family=Pacifico&family=Patrick+Hand+SC&family=Rock+Salt&family=Rubik+Pixels&family=Rubik+Puddles&family=Shrikhand&display=swap');
+@import "blogspot.css";
+@import "about.css";
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    margin: 50px 50px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    grid-gap: 0px;
+    border: 2px solid #f69b12;
+    border-radius: 40px;
+    background-color: #f63f1279;
+    grid-template-areas: 
+    "hd hd hd hd hd hd"
+    "sd sd main2 main2 main2 main2"
+    "sd sd main main main main"
+    "ft ft ft ft ft ft";
+    justify-content: center;
+}
+
+.box{ 
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+
+.header{
+    grid-area: hd;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Abril Fatface';
+    color: #40291b;
+}
+
+.sidebar{
+    grid-area: sd;
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Abril Fatface';
+    color: #40291b;
+    
+}
+
+.content{
+    grid-area: main;
+    padding: auto;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    font-family: 'Patrick Hand SC';
+    text-align: center;
+    color: #40291b;
+}
+
+.card {
+    grid-area: main2;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff27;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Patrick Hand SC';
+    color: #40291b;
+
+}
+
+.card img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff27;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Patrick Hand SC';
+    color: #40291b;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.footer{
+    grid-area: ft;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-family: 'Patrick Hand SC';
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 40;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff27;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation li {
+    float: left;
+}
+
+li a {
+    display: block;
+    flex-direction: wrap;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #25180f6a;
+}

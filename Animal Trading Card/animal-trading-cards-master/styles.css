@@ -1,0 +1,44 @@
+img{
+    width: 300px;
+    border-radius: 30px 10px 0px 0px;
+}
+
+.mainbox{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(68, 180, 46);
+    border-radius: 40px 20px;
+    box-shadow: 5px 5px rgba(68, 180, 46, 0.528);
+}
+
+.innerbox{
+    background-color: rgba(68, 180, 46, 0.258);
+    width: 300px;
+    margin-top: 10px;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid rgb(68, 180, 46);
+    border-radius: 0px 0px 30px 10px
+}
+
+.funfact{
+    font-style: italic;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 14px;
+}
+
+li span {
+    font-weight: bold;
+}
